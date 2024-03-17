@@ -28,7 +28,8 @@ Gerenciar Segurança                                                 Inclusão, 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Gerenciar Cadastro de Clientes                                      Inclusão, alteração e exclusão de Clientes 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+Gerenciar Agendamento                                               Inclusão, alteração e exclusão de Agendamento
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Imprimir Matrizes                                                   Gerar Matriz Requisito Funcional x Atributo
                                                                     Gerar Matriz Requisito Funcional x Regra de Negócio
                                                                     Gerar Matriz Requisito Funcional x Objetivo
