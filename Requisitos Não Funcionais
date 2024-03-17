@@ -2,8 +2,16 @@
 
 Requisitos do Projeto                                           A interface deve ser feita com HTML, CSS e Java Script
                                                                 A interface deve ser orgânizada, simples, limpa e intuitiva
+                                                                Deve conter um fomulário para cadastro do cliente
+                                                                Deve conter opções de serviços ofertado 
+                                                                Deve conter informações do suporte ao cliente
+                                                                Deve conter informações dos funcionarios disponíveis
+                                                                Deve conter informações dos horários disponivéis
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Requisitos de 
+Requisitos de Dados                                             Informações pessoais dos usuários não podem ser vistas pelos operadores do sistema
+                                                                Informações pessoais dos usuários não podem ser acessadas por outros usuários do sistema
+                                                                Informações pessoais dos usuários devem ser mantidas em um banco de dados com acesso restrito
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
