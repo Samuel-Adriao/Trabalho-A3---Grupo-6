@@ -9,62 +9,75 @@
     "wdth" 100;
 }
 
-.container{
-	max-width: 1400px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
+.clear{
+	clear: both;
 }
 
 html,body{
 	height: 100%;
 }
 
-.clear{
-	clear: both;
-}
-
 header{
-	height: 170px;
-	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0EB464;
+	padding: 10px;
 }
 
 .logo img{
-	width: 160px; 
-	height:160px;
+	width: 100px;
+	height: auto;
 }
 
-.localizacao img{
-	width: 300px; 
-	height:160px;
-}
-
-.telefone img{
-	width: 160px; 
-	height:160px;
-}
-
-.whatsapp img{
-	width: 160px; 
-	height:160px;
-}
-
-nav{
-	background-color: #276bb1;
-	padding: 8px 0;
-}
-
-nav ul{
+header nav ul{
 	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-ul li{
-	font-size: 22px;
+header nav ul li{
+	margin-right: 20px;
 	text-transform: uppercase;
-	
 }
 
-ul li a{
+header nav ul li a{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
 	text-decoration: none;
+	line-height: 40px;
 	color: black;
 }
+
+header nav ul li a .home{
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .services{
+	background-image: url('../images/servicos.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .login{
+	background-image: url('../images/login.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .support{
+	background-image: url('../images/suporte.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
