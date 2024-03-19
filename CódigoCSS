@@ -1,1 +1,70 @@
-teste2
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
+}
+
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	height: 170px;
+	width: 100%;
+}
+
+.logo img{
+	width: 160px; 
+	height:160px;
+}
+
+.localizacao img{
+	width: 300px; 
+	height:160px;
+}
+
+.telefone img{
+	width: 160px; 
+	height:160px;
+}
+
+.whatsapp img{
+	width: 160px; 
+	height:160px;
+}
+
+nav{
+	background-color: #276bb1;
+	padding: 8px 0;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+ul li{
+	font-size: 22px;
+	text-transform: uppercase;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+}
