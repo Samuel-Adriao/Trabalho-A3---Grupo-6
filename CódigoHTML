@@ -14,33 +14,22 @@
 </head> 
 <body>
 	<header>
-		<div class="container">
-			<div class="logo">
-				<img src="images/Logo.png">
-			</div><!--logo-->
-			<div class="logo">
-				<img src="images/Localização.png">
-			</div><!--localização-->
-			<div class="logo">
-				<img src="images/Telefone.png">
-			</div><!--telefone-->
-			<div class="logo">
-				<img src="images/WhatsApp.png">
-			</div><!--whatsapp-->
-			<div class="clear"></div><!--clear-->
-		</div><!--container-->
-	</header>
-			
-<nav>
+		<div class="logo">
+			<img src="images/Logo.png" alt="Logo da Empresa">
+		</div><!--logo-->
+		
+		<nav>
 			<ul>
-				<li><a href="">home</a></li>
-				<li><a href="">contatos</a></li>
-				<li><a href="">sobre</a></li>
+				<li><a href="file:///C:/Users/Samuel/OneDrive/Desktop/Projetos%20De%20Código/Clínica%20Veterinária/index.html" class="home">home</a></li>
+				<li><a href="" class="services">serviços</a></li>
+				<li><a href="" class="login">Login/Cadastro</a></li>
+				<li><a href="" class="support">Suporte</a></li>
+		
 			</ul>
 		</nav>
-		<div class="clear"></div>
-	</div>
+	</header>
 			
+
 		
 </body>
 </html>
