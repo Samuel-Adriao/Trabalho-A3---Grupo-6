@@ -1,1 +1,46 @@
-teste
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clínica Veterinária</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta charset="description" content="Conteúdo do meu site">
+	<meta charset="keywords" content="pet,veterinária,tosa,brinquedos,ração">
+	<meta charset="author" content="Samuel">
+	<meta charset="viewport" content="width=device_width,inicial-scale=1.0,maximum-scale=1.0">
+</head> 
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="images/Logo.png">
+			</div><!--logo-->
+			<div class="logo">
+				<img src="images/Localização.png">
+			</div><!--localização-->
+			<div class="logo">
+				<img src="images/Telefone.png">
+			</div><!--telefone-->
+			<div class="logo">
+				<img src="images/WhatsApp.png">
+			</div><!--whatsapp-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</header>
+			
+<nav>
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">contatos</a></li>
+				<li><a href="">sobre</a></li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</div>
+			
+		
+</body>
+</html>
