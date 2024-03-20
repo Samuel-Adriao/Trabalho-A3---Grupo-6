@@ -30,57 +30,77 @@ header{
 	height: auto;
 }
 
-header nav ul{
+header ul{
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+header nav{
 	display: flex;
-	flex-wrap: wrap;
+	align-items: center;
 }
 
-header nav ul li{
-	margin-right: 20px;
-	text-transform: uppercase;
-}
-
-header nav ul li a{
+header li{
 	display: inline-block;
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 40px;
-	padding-right: 40px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+header a{
 	text-decoration: none;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: left center;
 	line-height: 40px;
 	color: black;
 }
 
-header nav ul li a .home{
+header .home{
 	background-image: url('../images/home.png');
 	background-repeat: no-repeat;
 	padding-left: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px
 }
 
-header nav ul li a .services{
+header .services{
 	background-image: url('../images/servicos.png');
 	background-repeat: no-repeat;
 	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px
 }
 
-header nav ul li a .login{
+header .login{
 	background-image: url('../images/login.png');
 	background-repeat: no-repeat;
 	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px
 }
 
-header nav ul li a .support{
+header .support{
 	background-image: url('../images/suporte.png');
 	background-repeat: no-repeat;
 	padding-left: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 
 a:hover {
   background-color: #097541;
   transition: 0.8s;
-  border-radius: 80px;
+  border-radius: 80px; 
 }
+
 
 
 
