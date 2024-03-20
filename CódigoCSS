@@ -46,6 +46,7 @@ header nav ul li a{
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 40px;
+	padding-right: 40px;
 	text-decoration: none;
 	line-height: 40px;
 	color: black;
@@ -74,6 +75,14 @@ header nav ul li a .support{
 	background-repeat: no-repeat;
 	padding-left: 30px;
 }
+
+a:hover {
+  background-color: #097541;
+  transition: 0.8s;
+  border-radius: 80px;
+}
+
+
 
 
 
