@@ -1,0 +1,48 @@
+ ( Requisitos Não Funcionais )                                         ( Funcionalidade )
+
+Requisitos do Projeto                                           A interface deve ser feita com HTML, CSS e Java Script
+                                                                A interface deve ser orgânizada, simples, limpa e intuitiva
+                                                                Deve conter um fomulário para cadastro do cliente
+                                                                Deve conter opções de serviços ofertado 
+                                                                Deve conter informações do suporte ao cliente
+                                                                Deve conter informações dos funcionarios disponíveis
+                                                                Deve conter informações dos horários disponivéis
+                                                                A interface deve ser atrativa para o público alvo do software
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Dados                                             Informações pessoais dos usuários não podem ser vistas pelos operadores do sistema
+                                                                Informações pessoais dos usuários não podem ser acessadas por outros usuários do sistema
+                                                                Informações pessoais dos usuários devem ser mantidas em um banco de dados com acesso restrito
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requsitos de Problemas                                          Deve ser feito  testes para detecção de más funcionalidades 
+                                                                Deve ser tomadas medidads para correção de erros
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Funcionalidades                                   As funcionalidades do sistema devem ser aplicadas de formas separadas e organizadas para que seja de fácil acessibilidade 
+                                                                tanto para todos os desenvolvedores quanto para o cliente 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Dados                                             Deve ser exigido um cadastro do cliente
+                                                                Deve haver o Login do usuário
+                                                                Deve ser exigido o cadastro do animal 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Mensagens                                         Deve haver a possibilidade de entrar em contato com os profissionais disponivéis, através de ligações, E-mail ou 
+                                                                watsapp
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Suporte                                           Deve ser disponibilizado um e-mail para contato de suporte ao cliente, assim como um contato de suporte via 
+                                                                watsapp
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Acessibilidade                                    A interface deve ser de facil navegação e intuitiva
+                                                                O site deve ser responsivo para que seja possível a compatibilidade com qualquer navegador e dispositivo
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Segurança                                         Os funcionários não podem ter acesso aos dados pessoais do cliente no banco de dados
+                                                                Os desenvolvedores não devem ter o acesso dos dados pessoais do cliente no banco de dados
+                                                                Os dados do cliente devem ser armazenados e criptografados 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Cadastro de Clientes                              Deve ser exigido um cadastro do cliente
+                                                                Deve ser exigido o e-mail, nome completo, telefone, sexo, endereço do cliente
+                                                                Deve ser exigido o cadastro do animal 
+                                                                Deve ser exigido nome, raça, sexo, espécie, idade, peso e histórico médico do animal
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requisitos de Agendamento                                       O cliente deve ter disponibilizada a opção de agendamento de serviços como: tosa, atendimento veterinário, 
+                                                                atendimento presencial
+
+
+

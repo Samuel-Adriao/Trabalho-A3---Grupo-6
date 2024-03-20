@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
+}
+
+.clear{
+	clear: both;
+}
+
+html,body{
+	height: 100%;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #0EB464;
+	padding: 10px;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+}
+
+header nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header nav ul li{
+	margin-right: 20px;
+	text-transform: uppercase;
+}
+
+header nav ul li a{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 40px;
+	text-decoration: none;
+	line-height: 40px;
+	color: black;
+}
+
+header nav ul li a .home{
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .services{
+	background-image: url('../images/servicos.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .login{
+	background-image: url('../images/login.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+header nav ul li a .support{
+	background-image: url('../images/suporte.png');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
