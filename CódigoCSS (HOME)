@@ -1,112 +1,39 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Open Sans", sans-serif;
-  	font-optical-sizing: auto;
-  	font-style: normal;
-  	font-variation-settings:
-    "wdth" 100;
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clínica Veterinária</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta charset="description" content="Conteúdo do meu site">
+	<meta charset="keywords" content="pet,veterinária,tosa,brinquedos,ração">
+	<meta charset="author" content="Samuel">
+	<meta charset="viewport" content="width=device_width,inicial-scale=1.0,maximum-scale=1.0">
+</head> 
+<body>
+	<header>
+		<div class="logo">
+			<img src="images/Logo.png" alt="Logo da Empresa">
+		</div><!--logo-->
+		
+		<nav>
+			<ul>
+				<li><a href="file:///C:/Users/Samuel/OneDrive/Desktop/Projetos%20De%20Código/Clínica%20Veterinária/index.html" class="home">home</a></li>
+				<li><a href="" class="services">serviços</a></li>
+				<li><a href="file:///C:/Users/Samuel/OneDrive/Desktop/Projetos%20De%20Código/VeterinariaLogin/login.html" class="login">Login/Cadastro</a></li>
+				<li><a href="" class="support">Suporte</a></li>
+			</ul>
+		</nav>
+	</header>
 
-.clear{
-	clear: both;
-}
+	<section>
+		<div class="dog">
+			<img src="images/cachorro.png">
+		</div>
+	</section>
 
-html,body{
-	height: 100%;
-}
-
-header{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #0EB464;
-	padding: 10px;
-}
-
-.logo img{
-	width: 100px;
-	height: auto;
-}
-
-header ul{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-header nav{
-	display: flex;
-	align-items: center;
-}
-
-header li{
-	display: inline-block;
-	margin-right: 10px;
-	text-transform: uppercase;
-	padding-left: 150px;
-	padding-right: 150px;
-}
-
-header a{
-	text-decoration: none;
-	padding-left: 20px;
-	background-repeat: no-repeat;
-	background-size: 30px;
-	background-position: left center;
-	line-height: 40px;
-	color: black;
-}
-
-header .home{
-	background-image: url('../images/home.png');
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 10px
-}
-
-header .services{
-	background-image: url('../images/servicos.png');
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 10px
-}
-
-header .login{
-	background-image: url('../images/login.png');
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-	padding-right: 10px
-}
-
-header .support{
-	background-image: url('../images/suporte.png');
-	background-repeat: no-repeat;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-}
-
-a:hover {
-  background-color: #097541;
-  transition: 0.8s;
-  border-radius: 80px; 
-}
-
-
-
-
-
-
-
-
-
-
+		
+</body>
+</html>
